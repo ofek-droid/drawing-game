@@ -1,0 +1,15 @@
+input.input-range::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  appearance: none;
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: #2a283b; /* Green background */
+  cursor: pointer; /* Cursor on hover */
+  border-radius: 40%;
+}
+
+.input-range {
+  appearance: none;
+  border-radius: 10em;
+  background-color: darkslategrey;
+}
