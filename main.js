@@ -9,9 +9,7 @@ app.use(cors())
 app.use(morgan('dev'))
 
 app.get("/",(req,res) => {
-    res.send({
-        status:200
-    })
+    res.sendFile("./index.html",{root: __dirname})
 })
 
 //
